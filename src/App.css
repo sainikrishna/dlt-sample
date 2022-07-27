@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +35,82 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.fs-7 {
+  font-size: 0.85rem !important;
+}
+
+.fs-8 {
+  font-size: 0.75rem !important;
+}
+
+.fs-9 {
+  font-size: 0.65rem !important;
+}
+
+.fs-8 {
+  font-size: 0.75rem !important;
+}
+
+.bg-color-primary {
+  background-color: #B7A97E !important;
+}
+
+.bg-color-secondary {
+  background-color: #EEF3F4;
+}
+
+.bg-color-light {
+  background-color: #C4D6D9 !important;
+}
+
+.border-color-primary {
+  border-color: #B7A97E !important;
+}
+
+.top-border {
+  height: 5px;
+  width: 100%;
+  background-color: #B7A97E;
+}
+
+.text-green {
+  color: #2B686F !important;
+}
+
+.text-white {
+  color: white
+}
+
+.text-black {
+  color: black
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.flex-unset {
+  flex: unset !important;
+}
+
+.width-unset {
+  width: unset !important;
+}
+
+.divider {
+  width: 100%;
+  height: 1.5px;
+  background-color: #2B686F !important;
+}
+
+.divider-white {
+  width: 100% !important;
+  height: 10px;
+  background-color: white;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
