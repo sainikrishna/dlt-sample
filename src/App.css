@@ -65,8 +65,20 @@
   background-color: #C4D6D9 !important;
 }
 
+.bg-color-light2 {
+  background-color: #D2DBE0 !important;
+}
+
+.bg-color-lightGray {
+  background-color: #F5F5F5 !important;
+}
+
 .border-color-primary {
   border-color: #B7A97E !important;
+}
+
+.border-gray {
+  border: 1.5px solid #c5bebe !important
 }
 
 .top-border {
@@ -75,8 +87,18 @@
   background-color: #B7A97E;
 }
 
+.bottom-border {
+  height: 3px;
+  width: 100%;
+  background-color: #B7A97E;
+}
+
 .text-green {
   color: #2B686F !important;
+}
+
+.bg-green {
+  background-color: #2B686F !important;
 }
 
 .text-white {
@@ -113,4 +135,19 @@
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.-mt-4 {
+  margin-top: -1.5rem !important;
+}
+
+.pb-2-5 {
+  padding-bottom: 0.6rem !important;
+}
+
+.loading-div {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

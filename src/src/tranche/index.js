@@ -1,4 +1,5 @@
 import { useState } from "react";
+import InfoAlert from "../components/infoAlert";
 import SubmitModal from "./submitModal";
 import TrancheForm from "./trancheForm";
 
@@ -44,11 +45,8 @@ function Tranche() {
       <div className="mx-0">
         <div className="bg-color-secondary">
             <h5 className="text-green fw-bold p-4 pb-0">TRANCHE INFO</h5>
-            <div className="bg-color-primary p-2 px-3 rounded fs-7 fw-light w-100 mx-4">
-            <i class="fa-solid fa-circle-info"></i>
-            {" "}For eatch tranche of your facility, please enter details below, then
-            press 'Save/Next' button.
-            </div>
+            <div className="mx-4"><InfoAlert text=" For eatch tranche of your facility, please enter details below, then
+            press 'Save/Next' button." /></div>
         </div>
         <TrancheForm onTranche={onTranche} onChangeField={setFields} fields={fields} onSubmit={handleSubmit} />
       </div>

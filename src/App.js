@@ -1,10 +1,12 @@
 import './App.css';
 import Tranche from './src/tranche';
+import Trade from './src/trade';
 
 function App() {
   return (
     <div className="App">
-      <Tranche />
+      <Trade modal={true} />
+      {/* <Tranche /> */}
     </div>
   );
 }
