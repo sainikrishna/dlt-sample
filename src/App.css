@@ -2,6 +2,10 @@
   
 }
 
+.home {
+  height: 70vh;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
